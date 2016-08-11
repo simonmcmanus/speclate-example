@@ -1,0 +1,6 @@
+body {
+    margin: 20%;
+}
+nav a.active {
+    background: red;
+}
