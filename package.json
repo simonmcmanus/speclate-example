@@ -1,0 +1,17 @@
+{
+  "name": "speclate-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "markup": "./node_modules/speclate/lib/site/do-generate-site.js",
+    "client": "browserify ./client/router.js > ./client/router-compiled.js"
+  },
+  "author": "Simon McManus",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "13.x.x",
+    "speclate": "6.x.x",
+    "speclate-router": "3.x.x"
+  }
+}
