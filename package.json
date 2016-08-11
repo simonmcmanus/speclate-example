@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "markup": "./node_modules/speclate/lib/site/do-generate-site.js",
+    "markup": "./node_modules/speclate/bin/generate-site.js",
     "client": "browserify ./client/router.js > ./client/router-compiled.js"
   },
   "author": "Simon McManus",
