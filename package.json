@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npm run client && npm run markup",
-    "markup": "./node_modules/speclate/bin/generate-site.js",
+    "markup": "speclate",
     "client": "browserify ./client/router.js > ./client/router-compiled.js"
   },
   "author": "Simon McManus",
