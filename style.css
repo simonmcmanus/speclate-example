@@ -1,16 +1,19 @@
 body {
-    margin: 20%;
+    margin: 5% 20%;
 }
 
+nav {
+    margin: 2em 0;
+}
 nav a {
     background: lightgrey;
     margin: 1em 2em;
     padding: 1em 2em;
-
+    text-decoration: none;
 }
 
 nav a.active {
     background:white;
+    color: black;
     cursor: default;
-
 }
