@@ -4,7 +4,7 @@ module.exports = {
         page: 'home',
         selectors: {
             title: 'Home',
-            'a[href="./index.html"]': {
+            'a.home': {
                 className: 'active'
             }
         }
@@ -13,7 +13,7 @@ module.exports = {
         page: 'contact',
         selectors: {
             title: 'Contact',
-            'a[href="./contact.html"]': {
+            'a.contact': {
                 className: 'active'
             }
         }
