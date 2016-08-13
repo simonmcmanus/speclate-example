@@ -9,10 +9,12 @@ router(spec, {
     $('nav a.active').removeClass('active')
   },
   after: function () {
+    console.log('routing handled clientside')
     $('html,body').scrollTop($('#container'))
   },
   error: function (err) {
     if (err) {
+      console.log('Error with clientside routing', err);
       location.reload()
     }
   }
