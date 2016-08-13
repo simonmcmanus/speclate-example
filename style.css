@@ -1,6 +1,16 @@
 body {
     margin: 20%;
 }
+
+nav a {
+    background: lightgrey;
+    margin: 1em 2em;
+    padding: 1em 2em;
+
+}
+
 nav a.active {
-    background: red;
+    background:white;
+    cursor: default;
+
 }
