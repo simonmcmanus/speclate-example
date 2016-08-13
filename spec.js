@@ -18,5 +18,15 @@ module.exports = {
             }
         }
 
+    },
+    '/about.html': {
+        page: 'about',
+        selectors: {
+            title: 'About',
+            'a.about': {
+                className: 'active'
+            }
+        }
+
     }
 };
