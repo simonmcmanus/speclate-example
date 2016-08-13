@@ -7,8 +7,8 @@ nav {
 }
 nav a {
     background: lightgrey;
-    margin: 1em 2em;
-    padding: 1em 2em;
+    margin: 1em 2em 1em 0;
+    padding: .5em 2em;
     text-decoration: none;
     transition: background-color .3s;
 }
