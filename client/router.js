@@ -10,7 +10,6 @@ router(spec, {
   },
   after: function () {
     console.log('routing handled clientside')
-    $('html,body').scrollTop($('#container'))
   },
   error: function (err) {
     if (err) {
