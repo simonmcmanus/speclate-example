@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "npm run client && npm run markup",
     "markup": "./node_modules/speclate/bin/generate-site.js",
     "client": "browserify ./client/router.js > ./client/router-compiled.js"
   },
