@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npm run client && && npm run service-worker && npm run markup",
+    "build": "npm run client && npm run service-worker && npm run markup",
     "markup": "speclate --all",
     "client": "browserify ./client/router.js > ./docs/client/router-compiled.js",
     "service-worker": "browserify ./client/service-worker.js > ./docs/service-worker.js"
