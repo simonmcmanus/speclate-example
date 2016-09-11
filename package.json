@@ -6,8 +6,8 @@
   "scripts": {
     "build": "npm run markup && npm run client",
     "markup": "speclate --all",
-    "client": "browserify ./client/router.js > ./client/router-compiled.js",
-    "service-worker": "browserify ./client/service-worker.js > ./service-worker.js"
+    "client": "browserify ./client/router.js > ./docs/client/router-compiled.js",
+    "service-worker": "browserify ./client/service-worker.js > ./docs/service-worker.js"
   },
   "author": "Simon McManus",
   "license": "ISC",

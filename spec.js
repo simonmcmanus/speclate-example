@@ -1,7 +1,11 @@
 
 module.exports = {
     options: {
-        outputDir: '/docs'
+        outputDir: '/docs',
+        files: [
+            '/style.css',
+            '/client/router-compiled.js'
+        ]
     },
     '/': {
         page: 'home',
