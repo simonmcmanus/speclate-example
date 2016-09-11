@@ -1,5 +1,8 @@
 
 module.exports = {
+    options: {
+        outputDir: '/docs'
+    },
     '/': {
         page: 'home',
         selectors: {
