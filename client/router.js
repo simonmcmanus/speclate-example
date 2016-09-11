@@ -11,10 +11,9 @@ router(spec, {
   after: function () {
     console.log('routing handled clientside')
   },
-  error: function (err) {
+  error: function (err, $container) {
     if (err) {
-      console.log('Error with clientside routing', err);
-      location.reload()
+        $container.html('<h2>There was an error<h2>' + err);
     }
   }
 })
