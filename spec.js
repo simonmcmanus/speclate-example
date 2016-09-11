@@ -3,8 +3,8 @@ module.exports = {
     options: {
         outputDir: '/docs',
         files: [
-            '/style.css',
-            '/client/router-compiled.js'
+            'style.css',
+            'client/router-compiled.js'
         ]
     },
     '/': {
