@@ -5,15 +5,19 @@
   "main": "index.js",
   "scripts": {
     "build": "npm run client && npm run markup",
-    "markup": "speclate",
-    "client": "browserify ./client/router.js > ./client/router-compiled.js"
+    "markup": "speclate --all",
+    "client": "browserify ./client/router.js > ./client/router-compiled.js",
+    "service-worker": "browserify ./client/service-worker.js > ./service-worker.js"
   },
   "author": "Simon McManus",
   "license": "ISC",
   "devDependencies": {
     "browserify": "13.x.x",
     "jquery": "^3.1.0",
-    "speclate": "6.2.4",
-    "speclate-router": "3.x.x"
+    "speclate": "7.x.x",
+    "speclate-router": "4.x.x"
+  },
+  "dependencies": {
+    "speclate-service-worker": "^1.0.0"
   }
 }

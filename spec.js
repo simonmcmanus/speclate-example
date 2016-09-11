@@ -17,7 +17,6 @@ module.exports = {
                 className: 'active'
             }
         }
-
     },
     '/about.html': {
         page: 'about',
