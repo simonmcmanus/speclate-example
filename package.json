@@ -18,6 +18,6 @@
     "speclate-router": "4.x.x"
   },
   "dependencies": {
-    "speclate-service-worker": "^1.0.0"
+    "speclate-service-worker": "1.x.x"
   }
 }
