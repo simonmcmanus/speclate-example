@@ -9,6 +9,8 @@ router({
   },
   after: function () {
     console.log('routing handled clientside')
+    ga('set', 'page', window.location.pathname);
+    ga('send', 'pageview')
   },
   error: function (err, $container) {
     if (err) {
