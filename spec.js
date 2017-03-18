@@ -9,7 +9,7 @@ module.exports = {
     },
     '/': {
         page: 'home',
-        selectors: {
+        spec: {
             title: 'Home',
             'a.home': {
                 className: 'active'
@@ -18,7 +18,7 @@ module.exports = {
     },
     '/contact.html': {
         page: 'contact',
-        selectors: {
+        spec: {
             title: 'Contact',
             'a.contact': {
                 className: 'active'
@@ -27,7 +27,7 @@ module.exports = {
     },
     '/about.html': {
         page: 'about',
-        selectors: {
+        spec: {
             title: 'About',
             'a.about': {
                 className: 'active'
