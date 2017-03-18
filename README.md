@@ -1,4 +1,4 @@
-#Speclate example
+# Speclate example
 
 An example static site build with speclate.
 
