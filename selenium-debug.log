@@ -1,0 +1,59 @@
+17:47:26.755 INFO - Launching a standalone server
+17:47:26.789 INFO - Java: Oracle Corporation 25.31-b07
+17:47:26.789 INFO - OS: Mac OS X 10.13.1 x86_64
+17:47:26.797 INFO - v2.44.0, with Core v2.44.0. Built from revision 76d78cf
+17:47:26.866 INFO - Default driver org.openqa.selenium.ie.InternetExplorerDriver registration is skipped: registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match with current platform: MAC
+17:47:26.895 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+17:47:26.896 INFO - Version Jetty/5.1.x
+17:47:26.897 INFO - Started HttpContext[/selenium-server,/selenium-server]
+17:47:26.932 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@725bef66
+17:47:26.933 INFO - Started HttpContext[/wd,/wd]
+17:47:26.933 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+17:47:26.933 INFO - Started HttpContext[/,/]
+17:47:26.938 INFO - Started SocketListener on 0.0.0.0:4444
+17:47:26.938 INFO - Started org.openqa.jetty.jetty.Server@30dae81
+17:47:27.151 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Pages, browserName=firefox, javascriptEnabled=true, platform=ANY}]])
+17:47:27.158 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Pages, browserName=firefox, javascriptEnabled=true, platform=ANY}]
+17:47:34.923 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Pages, browserName=firefox, javascriptEnabled=true, platform=ANY}]]
+17:47:34.934 INFO - Executing: [get: http://localhost:5007/index.html])
+17:47:37.047 INFO - Done: [get: http://localhost:5007/index.html]
+17:47:37.056 INFO - Executing: [find elements: By.selector: body])
+17:47:37.111 INFO - Done: [find elements: By.selector: body]
+17:47:37.115 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on MAC (40641151-ef4e-a34d-9e4d-a6710c3016a8)] -> css selector: body]])
+17:47:37.123 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on MAC (40641151-ef4e-a34d-9e4d-a6710c3016a8)] -> css selector: body]]
+17:47:37.130 INFO - Executing: [find element: By.selector: #container])
+17:47:37.139 INFO - Done: [find element: By.selector: #container]
+17:47:37.144 INFO - Executing: [get text: 1 [[FirefoxDriver: firefox on MAC (40641151-ef4e-a34d-9e4d-a6710c3016a8)] -> css selector: #container]])
+17:47:37.156 INFO - Done: [get text: 1 [[FirefoxDriver: firefox on MAC (40641151-ef4e-a34d-9e4d-a6710c3016a8)] -> css selector: #container]]
+17:47:37.165 INFO - Executing: [delete session: ced0f79a-f9e7-4dc2-a5f5-7eb65f23ba75])
+17:47:37.288 INFO - Done: [delete session: ced0f79a-f9e7-4dc2-a5f5-7eb65f23ba75]
+17:47:37.295 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Pages, browserName=firefox, javascriptEnabled=true, platform=ANY}]])
+17:47:37.296 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Pages, browserName=firefox, javascriptEnabled=true, platform=ANY}]
+17:47:44.711 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Pages, browserName=firefox, javascriptEnabled=true, platform=ANY}]]
+17:47:44.719 INFO - Executing: [get: http://localhost:5007/contact.html])
+17:47:46.819 INFO - Done: [get: http://localhost:5007/contact.html]
+17:47:46.823 INFO - Executing: [find elements: By.selector: body])
+17:47:46.880 INFO - Done: [find elements: By.selector: body]
+17:47:46.882 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on MAC (93558e21-5e79-2e4d-933b-a28fd8cfb255)] -> css selector: body]])
+17:47:46.889 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on MAC (93558e21-5e79-2e4d-933b-a28fd8cfb255)] -> css selector: body]]
+17:47:46.893 INFO - Executing: [find element: By.selector: #container])
+17:47:46.902 INFO - Done: [find element: By.selector: #container]
+17:47:46.913 INFO - Executing: [get text: 1 [[FirefoxDriver: firefox on MAC (93558e21-5e79-2e4d-933b-a28fd8cfb255)] -> css selector: #container]])
+17:47:46.927 INFO - Done: [get text: 1 [[FirefoxDriver: firefox on MAC (93558e21-5e79-2e4d-933b-a28fd8cfb255)] -> css selector: #container]]
+17:47:46.930 INFO - Executing: [delete session: 31887684-5d6c-4f42-92e7-aeb4315502bf])
+17:47:47.051 INFO - Done: [delete session: 31887684-5d6c-4f42-92e7-aeb4315502bf]
+17:47:47.056 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Pages, browserName=firefox, javascriptEnabled=true, platform=ANY}]])
+17:47:47.057 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Pages, browserName=firefox, javascriptEnabled=true, platform=ANY}]
+17:47:54.539 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Pages, browserName=firefox, javascriptEnabled=true, platform=ANY}]]
+17:47:54.543 INFO - Executing: [get: http://localhost:5007/about.html])
+17:47:57.406 INFO - Done: [get: http://localhost:5007/about.html]
+17:47:57.418 INFO - Executing: [find elements: By.selector: body])
+17:47:57.486 INFO - Done: [find elements: By.selector: body]
+17:47:57.493 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on MAC (0e5c7c79-c89a-2249-bfa7-c1b04795ca37)] -> css selector: body]])
+17:47:57.505 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on MAC (0e5c7c79-c89a-2249-bfa7-c1b04795ca37)] -> css selector: body]]
+17:47:57.513 INFO - Executing: [find element: By.selector: #container])
+17:47:57.522 INFO - Done: [find element: By.selector: #container]
+17:47:57.526 INFO - Executing: [get text: 1 [[FirefoxDriver: firefox on MAC (0e5c7c79-c89a-2249-bfa7-c1b04795ca37)] -> css selector: #container]])
+17:47:57.548 INFO - Done: [get text: 1 [[FirefoxDriver: firefox on MAC (0e5c7c79-c89a-2249-bfa7-c1b04795ca37)] -> css selector: #container]]
+17:47:57.552 INFO - Executing: [delete session: 8a38cfb9-f831-4202-a827-ed1d9b18ddcd])
+17:47:57.663 INFO - Done: [delete session: 8a38cfb9-f831-4202-a827-ed1d9b18ddcd]

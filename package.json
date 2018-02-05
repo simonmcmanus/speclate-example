@@ -4,18 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "speclate --dev 5006",
+    "start": "speclate --dev 5007",
     "build": "npm run client && npm run service-worker && npm run markup",
     "markup": "speclate --build",
     "client": "browserify ./client/router.js > ./client/router-compiled.js",
-    "service-worker": "mkdir -p docs && browserify ./client/service-worker.js > ./docs/service-worker.js"
+    "service-worker": "mkdir -p docs && browserify ./client/service-worker.js > ./docs/service-worker.js",
+    "test": "npm start  && npm run tests/e2e/nightwatch.js --config tests/e2e/nightwatch.json"
   },
   "author": "Simon McManus",
   "license": "ISC",
   "devDependencies": {
+    "nightwatch": "0.x.x"
+  },
+  "dependencies": {
     "browserify": "14.x.x",
     "jquery": "3.x.x",
-    "speclate": "12.x.x",
+    "speclate": "14.x.x",
     "speclate-router": "5.x.x",
     "speclate-service-worker": "1.x.x"
   }
