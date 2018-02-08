@@ -6,6 +6,7 @@
   "scripts": {
     "start": "speclate --dev 5006",
     "build": "npm run client && npm run service-worker && npm run markup",
+    "test": "./node_modules/.bin/cypress run",
     "markup": "speclate --build",
     "client": "browserify ./client/router.js > ./client/router-compiled.js",
     "service-worker": "mkdir -p docs && browserify ./client/service-worker.js > ./docs/service-worker.js"
@@ -14,6 +15,7 @@
   "license": "ISC",
   "devDependencies": {
     "browserify": "14.x.x",
+    "cypress": "^1.4.2",
     "jquery": "3.x.x",
     "speclate": "12.x.x",
     "speclate-router": "5.x.x",
