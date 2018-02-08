@@ -14,11 +14,11 @@
   "author": "Simon McManus",
   "license": "ISC",
   "devDependencies": {
-    "browserify": "14.x.x",
+    "browserify": "^16.0.0",
     "cypress": "^1.4.2",
     "jquery": "3.x.x",
-    "speclate": "12.x.x",
-    "speclate-router": "5.x.x",
+    "speclate": "^16.1.2",
+    "speclate-router": "^8.3.0",
     "speclate-service-worker": "1.x.x"
   }
 }
