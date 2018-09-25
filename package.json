@@ -14,7 +14,7 @@
   "author": "Simon McManus",
   "license": "ISC",
   "devDependencies": {
-    "browserify": "^16.0.0",
+    "browserify": "^16.2.3",
     "cypress": "^2.0.0",
     "jquery": "3.x.x",
     "speclate": "^16.1.2",
