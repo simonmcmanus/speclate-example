@@ -19,6 +19,6 @@
     "jquery": "3.x.x",
     "speclate": "^16.1.2",
     "speclate-router": "^8.3.0",
-    "speclate-service-worker": "1.x.x"
+    "speclate-service-worker": "^3.0.0"
   }
 }
